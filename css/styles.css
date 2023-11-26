@@ -103,6 +103,18 @@ img {
     padding-bottom: 24px;
 }
 
+.menu-nav-item:hover::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #404BBF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 .menu-nav-item:hover {
     color: #404BBF;
 }
@@ -147,7 +159,6 @@ img {
             rgba(46, 47, 66, 0.70)),
         url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
-
     background-position: center;
 }
 
@@ -267,6 +278,7 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 72px)/4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .members-card {
@@ -375,6 +387,10 @@ img {
     transform: translateY(0);
 }
 
+.our-app-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08)
+}
+
 .app-card {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
@@ -413,4 +429,28 @@ img {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+}
+
+.footer-logo-container {
+    flex-basis: 264px;
+    margin-right: 120px;
+}
+
+.footer-text {
+    padding-top: 17.5px;
+
+}
+
+.social-media {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.social-list {
+    padding-top: 16px;
+    gap: 16px;
 }
