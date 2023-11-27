@@ -179,6 +179,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
     position: relative;
 
 
@@ -498,7 +499,7 @@ img {
 
 }
 
-.social-list {
+.footer-social-links .social-list {
     gap: 16px;
 }
 
